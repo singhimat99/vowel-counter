@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      #title {
+        color: blue;
+      }
+    </style>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vowel Counter</title>
   </head>
-  <body>
-    <div>
-      <h2>Vowel Counter</h2>
+  <body style="text-align: center">
+    <div id="container">
+      <h2 id="title">Vowel Counter</h2>
+      <input
+        type="text"
+        style="width: 500px"
+        placeholder="Enter text here..."
+        class="inputField"
+      />
+      <button class="submitBtn">Submit</button>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
